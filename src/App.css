@@ -39,3 +39,17 @@ nav ul {
     list-style-type: none;
     padding: 0;
 }
+
+nav li {
+
+}
+
+nav li a {
+    color: white;
+    padding: 1rem;
+    text-decoration: none;
+}
+
+.highlight {
+    background-color: #00C2FF;
+}
