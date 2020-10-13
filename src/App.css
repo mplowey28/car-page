@@ -50,6 +50,10 @@ nav li a {
     text-decoration: none;
 }
 
+.selected {
+    font-weight: bold;
+}
+
 .highlight {
     background-color: #00C2FF;
 }
