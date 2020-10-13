@@ -3,7 +3,7 @@ import car from '../assests/icons/car.png'
 
 const Nav = () => {
     return (
-        <nav>
+        <nav className="container">
             <div className="logo">
                 <img src={car} alt="car logo" />
             </div>
