@@ -15,7 +15,12 @@ header {
     color: white;
     display: flex;
     flex-direction: column;
+    align-items: flex-start;
     min-height: 100vh;
+}
+
+header .content {
+    margin: auto;
 }
 
 .container {
@@ -38,10 +43,6 @@ nav ul {
     display: flex;
     list-style-type: none;
     padding: 0;
-}
-
-nav li {
-
 }
 
 nav li a {
