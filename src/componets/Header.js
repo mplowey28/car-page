@@ -9,7 +9,7 @@ const Header = () => {
             <div className="container">
                 <h1>Come take a ride</h1>
                 <p>Experience true engineering perfection</p>
-                <a href="#">Book Appointment</a>
+                <a className="highlight" href="#">Book Appointment</a>
             </div>
            </div>
        </header>

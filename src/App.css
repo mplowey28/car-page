@@ -19,8 +19,14 @@ header {
     min-height: 100vh;
 }
 
-header .content {
+.content {
+    font-size: 2rem;
     margin: auto;
+}
+
+.content h1{
+    color: #00c2ff;
+    margin-bottom: 0;
 }
 
 .container {
@@ -47,8 +53,6 @@ nav ul {
 
 nav li a {
     color: white;
-    padding: 1rem;
-    text-decoration: none;
 }
 
 .selected {
@@ -57,4 +61,7 @@ nav li a {
 
 .highlight {
     background-color: #00C2FF;
+    color: white;
+    padding: 1rem;
+    text-decoration: none;
 }
