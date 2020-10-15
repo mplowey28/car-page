@@ -26,7 +26,7 @@ header {
 }
 
 .content h1{
-    color: #00c2ff;
+    color: whitesmoke;
     margin-bottom: 0;
 }
 
@@ -63,10 +63,12 @@ nav li a {
 }
 
 .highlight {
-    background-color: #00C2FF;
+    background-color:darkred;
+    opacity: .75;
     color: white;
     padding: 1rem;
     text-decoration: none;
+    border-radius: 5px;
 }
 
 footer {
@@ -84,7 +86,7 @@ footer ul {
 }
 
 footer strong {
-    color: #00c2ff;
+    color: darkred;
 }
 
 footer p {
