@@ -16,12 +16,13 @@ header {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    min-height: calc(100vh - 100px);
+    min-height: calc(100vh - 102px);
 }
 
 .content {
     font-size: 1.5rem;
     margin: auto;
+    max-width: 100%;
 }
 
 .content h1{
@@ -30,6 +31,7 @@ header {
 }
 
 .container {
+    padding: 1rem;
     margin: 0 auto;
     max-width: 100%;
     width: 1000px;
@@ -38,11 +40,10 @@ header {
 nav {
     display: flex;
     justify-content: space-between;
-    padding: 1rem;
 }
 
 nav .logo{
-    font-size: 2rem;
+    font-size: 2.5rem;
 }
 
 nav ul {
@@ -84,4 +85,37 @@ footer ul {
 
 footer strong {
     color: #00c2ff;
+}
+
+footer p {
+    margin: 0;
+}
+
+@media screen and (max-width: 700px) {
+    .conten {
+        font-size: 1.5rem;
+        margin: 2rem auto 0;
+    }
+
+    nav ul {
+        flex-direction: column;
+    }
+
+    nav li:not(:last-child) {
+        margin-bottom: 1rem;
+    }
+
+    nav .highlight {
+        display: none;
+    }
+
+    footer ul {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    footer li {
+        margin: 1rem;
+        text-align: center;
+    }
 }

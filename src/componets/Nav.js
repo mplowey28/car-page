@@ -5,7 +5,7 @@ const Nav = () => {
     return (
         <nav className="container">
             <div className="logo">
-                <img src={car} alt="car logo" />
+                <img src={car} alt="car logo" /> Cars
             </div>
             <ul>
                 <li><a href="#" className="selected">Home</a></li>
