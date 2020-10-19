@@ -1,5 +1,5 @@
 # Car advert
-A React web app showing off a modernly styled page for a car.   
+A React landing page for a car.   
 
 # Motivation
 # Build status

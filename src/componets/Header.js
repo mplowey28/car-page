@@ -1,10 +1,12 @@
 import React from 'react'
+import Burger from './Burger'
 import Nav from './Nav'
 
 const Header = () => {
     return (
        <header>
            <Nav />
+           <Burger />
            <div className="content">
             <div className="container">
                 <h1>Come take a ride</h1>
