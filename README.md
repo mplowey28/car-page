@@ -4,14 +4,17 @@ A React landing page for a car.
 # Motivation
 # Build status
 # Screenshots
+
+<p align="center">
+<img src="./src/assests/img/car.png">
+</p>
+
 # Tech/framework used
 
 Built with: 
 - React
 
-<p align="center">
-<img src="./src/assests/img/car.png">
-</p>
+<img  src="https://img.icons8.com/color/96/000000/react-native.png" alt="react"/>
 
 # Features
 # Code Example
